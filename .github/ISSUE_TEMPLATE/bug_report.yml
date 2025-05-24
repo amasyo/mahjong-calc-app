@@ -1,5 +1,5 @@
 name: 🐞 Bug Report
-about: Use this template to report any bugs or unexpected behavior in the application.
+description: Use this template to report any bugs or unexpected behavior in the application.
 title: "[BUG] "
 labels: ["bug"]
 
