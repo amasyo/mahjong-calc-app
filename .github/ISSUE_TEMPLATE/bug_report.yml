@@ -1,18 +1,11 @@
----
-name: bug_report
-about: Use this template to report any bugs or unexpected behavior in the application.
-title: ''
-labels: ''
-assignees: ''
-
----
-
 name: 🐞 Bug Report
-description: Report a bug or unexpected behavior in the app
+about: Use this template to report any bugs or unexpected behavior in the application.
 title: "[BUG] "
 labels: ["bug"]
+
 body:
   - type: textarea
+    id: description
     attributes:
       label: Description of the issue
       description: What happened? Please provide a clear and concise description.
@@ -21,6 +14,7 @@ body:
       required: true
 
   - type: textarea
+    id: steps
     attributes:
       label: Steps to reproduce
       description: Describe the steps to reproduce the issue.
@@ -32,6 +26,7 @@ body:
       required: true
 
   - type: textarea
+    id: expected
     attributes:
       label: Expected behavior
       description: What did you expect to happen?
@@ -40,6 +35,7 @@ body:
       required: false
 
   - type: textarea
+    id: environment
     attributes:
       label: Environment
       description: Describe the environment in which you encountered the issue.
