@@ -1,12 +1,3 @@
----
-name: feature_request
-about: Suggest a new feature or improvement for the app.
-title: ''
-labels: ''
-assignees: ''
-
----
-
 name: ✨ Feature Request
 description: Suggest a new feature or improvement
 title: "[Feature] "
