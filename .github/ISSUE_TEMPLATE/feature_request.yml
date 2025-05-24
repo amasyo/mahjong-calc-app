@@ -1,0 +1,43 @@
+name: "🐞 Bug Report"
+description: "Report a bug or unexpected behavior in the app"
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description of the issue"
+      description: "What happened? Please provide a clear and concise description."
+      placeholder: "e.g., Incorrect shanten count, tile image not displaying properly, etc."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce"
+      description: "Describe the steps to reproduce the issue."
+      placeholder: |
+        1. Enter "123456789m123p11s" into the input field  
+        2. Click the "Calculate" button  
+        3. Observe the result...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected behavior"
+      description: "What did you expect to happen?"
+      placeholder: "I expected the shanten count to be 1 and the tiles to be sorted correctly."
+    validations:
+      required: false
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: "Environment"
+      description: "Describe the environment in which you encountered the issue."
+      placeholder: "e.g., Windows 11, Chrome 123.0, iPhone Safari, etc."
+    validations:
+      required: false
