@@ -1,43 +1,32 @@
-name: "🐞 Bug Report"
-description: "Report a bug or unexpected behavior in the app"
-title: "[BUG] "
-labels: ["bug"]
+name: ✨ Feature Request
+about: Suggest a new feature or improvement
+title: "[Feature] "
+labels: ["enhancement"]
+
 body:
   - type: textarea
-    id: description
+    id: feature_description
     attributes:
-      label: "Description of the issue"
-      description: "What happened? Please provide a clear and concise description."
-      placeholder: "e.g., Incorrect shanten count, tile image not displaying properly, etc."
+      label: Feature description
+      description: Describe the feature or enhancement you'd like to see.
+      placeholder: Add a "What to discard?" feature, support dark mode, etc.
     validations:
       required: true
 
   - type: textarea
-    id: steps
+    id: purpose_motivation
     attributes:
-      label: "Steps to reproduce"
-      description: "Describe the steps to reproduce the issue."
-      placeholder: |
-        1. Enter "123456789m123p11s" into the input field  
-        2. Click the "Calculate" button  
-        3. Observe the result...
+      label: Purpose / Motivation
+      description: Why is this feature useful? What problem does it solve?
+      placeholder: Helps users practice real game decisions, improves usability, etc.
     validations:
       required: true
 
   - type: textarea
-    id: expected
+    id: additional_context
     attributes:
-      label: "Expected behavior"
-      description: "What did you expect to happen?"
-      placeholder: "I expected the shanten count to be 1 and the tiles to be sorted correctly."
-    validations:
-      required: false
-
-  - type: textarea
-    id: environment
-    attributes:
-      label: "Environment"
-      description: "Describe the environment in which you encountered the issue."
-      placeholder: "e.g., Windows 11, Chrome 123.0, iPhone Safari, etc."
+      label: Additional context
+      description: Include any other details, references, or screenshots.
+      placeholder: e.g., Related services, mockups, relevant links
     validations:
       required: false
